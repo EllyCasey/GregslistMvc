@@ -1,0 +1,26 @@
+/* BASIC STYLES HERE */
+
+.car-card {
+  border: 3px solid;
+  border-radius: 15px;
+}
+
+.car-card img {
+  border-radius: 15px 0 0 15px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cool-form {
+  border-radius: 15px;
+  background-color: rgb(215, 212, 226);
+  border: 3px solid black;
+}
+
+
+@media screen and (max-width: 767.8px) {
+  .car-card img {
+    border-radius: 15px 15px 0 0;
+  }
+}
